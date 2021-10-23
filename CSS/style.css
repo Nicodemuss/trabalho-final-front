@@ -1,25 +1,28 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     margin: 0 auto;
     padding-left: 0;
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif;
 }
+
 body{
     background: rgb(230,214,214);
     background: linear-gradient(90deg, rgba(230,214,214,1) 0%, rgba(70,70,70,1) 23%, rgba(205,205,205,1) 37%, rgba(205,205,205,1) 64%, rgba(70,70,70,1) 75%, rgba(207,207,207,1) 100%);
 }
+
 :root{
     --font-titles:  'Ubuntu', sans-serif;
 }
+
 #menu-h ul{
     list-style-type: none;
     padding: 0;
     background-color: rgb(114, 114, 114);
     margin-bottom: 0;
 }
-
 
 #menu-h ul li{
     display: inline;
@@ -95,11 +98,10 @@ h1{
     text-align: center;
     margin: 0;
 }
+
 section div h2{
-    
     text-align: center;
 }
-
 
 button {
     padding: 10px 15px;
@@ -109,6 +111,7 @@ button {
     background: rgba(245, 245, 245, 0.678);
     cursor: pointer;
 }
+
 .img1{
     position: absolute;
     width: 400px;
@@ -117,6 +120,7 @@ button {
     left: 185%;
     border: solid 10px white;
 }
+
 .img2{
     position: absolute;
     width: 400px;
@@ -124,21 +128,24 @@ button {
     margin: 0%;
     right: 185%;
     border: solid 10px white;
+}
 
+.footTitleTxt{
+    text-align: center;
+    color: white;
 }
 
 .footTxt ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    position:absolute;
-    margin:10px;
+    justify-content:center;
+    
 }
 .footTxt ul > li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
     margin: 20px;
 }
 
@@ -146,15 +153,18 @@ li > a > i{
     font-size: 40px;
     color:rgb(255, 253, 253);
 }
+
 ul > img{
     width:100%;
 }
 
-
 footer{
     height: 200px;
-    background-color:rgb(114, 114, 114);
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 100px;
+    align-items: center;    
 }
 
 footer div h3{
@@ -162,4 +172,3 @@ footer div h3{
     font-size: 40px;
     color: white;
 }
-
