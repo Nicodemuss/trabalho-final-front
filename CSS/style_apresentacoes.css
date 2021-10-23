@@ -1,0 +1,40 @@
+#ApresentacoesOpc{
+    background-color: rgba(34, 34, 34, 0.452);
+}
+.panel-body .texto{
+    background-color: rgba(114, 114, 114, 0.781);
+    border: solid 10px rgba(114, 114, 114, 0.781);
+    margin: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: -15px 10px rgba(56, 53, 53, 0.493);
+    color: aliceblue;
+}
+.panel-body .imgAp{
+    border: solid 10px rgba(114, 114, 114, 0.726);
+    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);
+    width: fit-content;
+    margin: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.panel-body .imgAp2{
+    border: solid 10px rgba(114, 114, 114, 0.726);
+    box-shadow: -15px 10px rgba(56, 53, 53, 0.603);
+    width: fit-content;
+    margin: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#foto1 {
+   height: 100%;
+   width: 100%;
+}
+#foto2 {
+    height: 100% ;
+    width: 100% ;
+}
+.AAA{
+    background-image: url(https://images.pexels.com/photos/4028878/pexels-photo-4028878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+}
